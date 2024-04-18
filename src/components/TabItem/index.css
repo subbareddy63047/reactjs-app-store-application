@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.each-tab {
+  list-style-type: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button {
+  border-width: 0;
+  background-color: transparent;
+  width: 100%;
+  color: #7b8794;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 2px;
+}
+.current-tab {
+  color: #2563ed;
+  border-bottom: 2px solid #2563ed;
+}
+
+@media screen and (min-width: 768px) {
+  .each-tab button {
+    font-size: 30px;
+  }
+}
